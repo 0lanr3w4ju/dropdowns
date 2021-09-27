@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+</head>
+<body>
+    <div>
+        <select name="slct1" id="slct1" onchange="populate('slct1', 'slct2')">
+            <option value="">Select Country</option>
+
+            <option value="NIGERIA"> NIGERIA </option>
+
+            <option value="ANTARCTICA"> ANTARCTICA </option>
+
+            <option value="HUNGARY"> HUNGARY </option>
+
+            <option value="ICELAND"> ICELAND </option>
+
+            <option value="INDIA"> INDIA </option>
+
+            <option value="INDONESIA"> INDIAINDONESIA </option>
+
+            <option value="IRAN, ISLAMIC REPUBLIC OF"> IRAN, ISLAMIC REPUBLIC OF </option>
+
+            <option value="IRAQ"> IRAQ </option>
+
+            <option value="IRELAND"> IRELAND </option>
+
+            <option value="ISLE OF MAN"> ISLE OF MAN </option>
+
+            <option value="ISRAEL"> ISRAEL </option>
+
+            <option value="ITALY"> ITALY </option>
+
+            <option value="ANTIGUA AND BARBUDA"> ANTIGUA AND BARBUDA </option>
+
+            <!--  -->
+            <option value="JAMAICA"> JAMAICA </option>
+
+            <option value="JAPAN"> JAPAN </option>
+
+            <option value="JERSEY"> JERSEY </option>
+
+            <option value="JORDAN"> JORDAN </option>
+
+            <option value="KAZAKHSTAN"> KAZAKHSTAN </option>
+
+            <option value="KENYA"> KENYA </option>
+
+            <option value="KIRIBATI"> KIRIBATI </option>
+
+            <option value="KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF"> KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF </option>
+
+            <option value="KOREA, REPUBLIC OF"> KOREA, REPUBLIC OF </option>
+
+            <option value="KUWAIT"> KUWAIT </option>
+
+            <option value="ARGENTINA"> ARGENTINA </option>
+
+            <option value="KYRGYZSTAN"> KYRGYZSTAN </option>
+
+            <option value="LAO PEOPLE'S DEMOCRATIC REPUBLIC"> LAO PEOPLE'S DEMOCRATIC REPUBLIC </option>
+
+            <option value="LATVIA"> LATVIA </option>
+
+            <option value="LEBANON"> LEBANON </option>
+
+            <option value="LESOTHO"> LESOTHO </option>
+
+            <option value="LIBERIA"> LIBERIA </option>
+
+            <option value="LIBYAN ARAB JAMAHIRIYA"> LIBYAN ARAB JAMAHIRIYA </option>
+
+            <option value="LIECHTENSTEIN"> LIECHTENSTEIN </option>
+
+            <option value="LITHUANIA"> LITHUANIA </option>
+
+            <option value="LUXEMBOURG"> LUXEMBOURG </option>
+
+            <option value="ARMENIA"> ARMENIA </option>
+
+            <option value="MACAO"> MACAO </option>
+
+            <option value="MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF">  MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF  </option>
+
+            <option value="MADAGASCAR"> MADAGASCAR </option>
+
+            <option value="MALAWI"> MALAWI </option>
+
+            <option value="MALAYSIA"> MALAYSIA </option>
+
+            <option value="MALDIVES"> MALDIVES </option>
+
+            <option value="MALI"> MALI </option>
+
+            <option value="MALTA"> MALTA </option>
+
+            <option value="MARSHALL ISLANDS"> MARSHALL ISLANDS </option>
+
+            <option value="MARTINIQUE"> MARTINIQUE </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="MAURITANIA"> MAURITANIA </option>
+
+            <option value="MAURITIUS"> MAURITIUS </option>
+
+            <option value="MEXICO"> MEXICO </option>
+
+            <option value="MICRONESIA, FEDERATED STATES OF"> MICRONESIA, FEDERATED STATES OF </option>
+
+            <option value="MOLDOVA, REPUBLIC OF"> MOLDOVA, REPUBLIC OF </option>
+
+            <option value="MONACO"> MONACO </option>
+
+            <option value="MONGOLIA"> MONGOLIA </option>
+
+            <option value="MONTENEGRO"> MONTENEGRO </option>
+
+            <option value="MONTSERRAT"> MONTSERRAT </option>
+
+            <option value="AUSTRALIA"> AUSTRALIA </option>
+
+            <option value="MOROCCO"> MOROCCO </option>
+
+            <option value="MOZAMBIQUE"> MOZAMBIQUE </option>
+
+            <option value="MYANMAR"> MYANMAR </option>
+
+            <option value="NAMIBIA"> NAMIBIA </option>
+
+            <option value="NAURU"> NAURU </option>
+
+            <option value="NEPAL"> NEPAL </option>
+
+            <option value="NETHERLANDS"> NETHERLANDS </option>
+
+            <option value="NETHERLANDS ANTILLES">  NETHERLANDS ANTILLES  </option>
+
+            <option value="NEW CALEDONIA">  NEW CALEDONIA  </option>
+
+            <option value="NEW ZEALAND"> NEW ZEALAND </option>
+
+            <option value="NICARAGUA"> NICARAGUA </option>
+
+            <option value="NIGER"> NIGER </option>
+
+            <option value="NIUE"> NIUE </option>
+
+            <option value=" NORFOLK ISLAND ">  NORFOLK ISLAND  </option>
+
+            <option value=" NORTHERN MARIANA ISLANDS ">  NORTHERN MARIANA ISLANDS  </option>
+
+            <option value="NORWAY"> NORWAY </option>
+
+            <option value="OMAN"> OMAN </option>
+
+            <option value="PAKISTAN"> PAKISTAN </option>
+
+            <option value="PALAU"> PALAU </option>
+
+            <option value=" PALESTINIAN TERRITORY, OCCUPIED ">  PALESTINIAN TERRITORY, OCCUPIED  </option>
+
+            <option value="AZERBAIJAN"> AZERBAIJAN </option>
+
+            <option value="PANAMA"> PANAMA </option>
+
+            <option value=" PAPUA NEW GUINEA ">  PAPUA NEW GUINEA  </option>
+
+            <option value="PARAGUAY"> PARAGUAY </option>
+
+            <option value="PERU"> PERU </option>
+
+            <option value="PHILIPPINES"> PHILIPPINES </option>
+
+            <option value="PITCAIRN"> PITCAIRN </option>
+
+            <option value="POLAND"> POLAND </option>
+
+            <option value="PORTUGAL"> PORTUGAL </option>
+
+            <option value=" PUERTO RICO ">  PUERTO RICO  </option>
+
+            <option value="QATAR"> QATAR </option>
+
+            <option value="BAHAMAS"> BAHAMAS </option>
+
+            <option value="RÉUNION"> RÉUNION </option>
+
+            <option value="ROMANIA"> ROMANIA </option>
+
+            <option value=" RUSSIAN FEDERATION ">  RUSSIAN FEDERATION  </option>
+
+            <option value="RWANDA"> RWANDA </option>
+
+            <option value=" SAINT BARTHÉLEMY ">  SAINT BARTHÉLEMY  </option>
+
+            <option value=" SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA ">  SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA  </option>
+
+            <option value=" SAINT KITTS AND NEVIS ">  SAINT KITTS AND NEVIS  </option>
+
+            <option value=" SAINT LUCIA ">  SAINT LUCIA  </option>
+
+            <option value=" SAINT MARTIN ">  SAINT MARTIN  </option>
+
+            <option value=" SAINT PIERRE AND MIQUELON ">  SAINT PIERRE AND MIQUELON  </option>
+
+            <option value="BAHRAIN"> BAHRAIN </option>
+
+            <option value=" SAINT VINCENT AND THE GRENADINES ">  SAINT VINCENT AND THE GRENADINES  </option>
+
+            <option value="SAMOA"> SAMOA </option>
+
+            <option value=" SAN MARINO ">  SAN MARINO  </option>
+
+            <option value=" SAO TOME AND PRINCIPE ">  SAO TOME AND PRINCIPE  </option>
+
+            <option value=" SAUDI ARABIA ">  SAUDI ARABIA  </option>
+
+            <option value="SENEGAL"> SENEGAL </option>
+
+            <option value="SERBIA"> SERBIA </option>
+
+            <option value="SEYCHELLES"> SEYCHELLES </option>
+
+            <option value=" SIERRA LEONE ">  SIERRA LEONE  </option>
+
+            <option value="SINGAPORE"> SINGAPORE </option>
+
+            <option value="AFGHANISTAN"> AFGHANISTAN </option>
+
+            <option value=" BANGLADESH ">  BANGLADESH  </option>
+
+            <option value="SLOVAKIA"> SLOVAKIA </option>
+
+            <option value="SLOVENIA"> SLOVENIA </option>
+
+            <option value=" SOLOMON ISLANDS ">  SOLOMON ISLANDS  </option>
+
+            <option value="SOMALIA"> SOMALIA </option>
+
+            <option value=" SOUTH AFRICA ">  SOUTH AFRICA  </option>
+
+            <option value=" SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS ">  SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS  </option>
+
+            <option value="SPAIN"> SPAIN </option>
+
+            <option value=" SRI LANKA ">  SRI LANKA  </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+
+            <option value="ARUBA"> ARUBA </option>
+        </select>
+    </div>
+</body>
+</html>
